@@ -1,19 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[21]:
+# In[14]:
 
 
 from flask import Flask, render_template, request
 
 
-# In[22]:
+# In[15]:
 
 
 app = Flask(__name__)
 
 
-# In[23]:
+# In[16]:
 
 
 import joblib
@@ -36,7 +36,7 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host='localhost', port=5002, debug=False)
+    app.run()
 
 
 # In[ ]:
